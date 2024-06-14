@@ -16,10 +16,11 @@
 // console.log(numbers(2,45,32));
 
 
-// 3-masala    !!!
+// 3-masala 
 // function colors(color1,color2,color3) {
 //     let res =[color1,color2,color3];
-//     return res[0], res[1];
+//     let res2=res[res.length-1]
+//     return res2,res[0]
 // }
 // console.log(colors("blue","red",'green'));
 
@@ -83,6 +84,19 @@
 
 
 // 10-masala
+// function arr(arg1,arg2,arg3,arg4,arg5,arg6) {
+//     let res =[arg1,arg2,arg3];
+//     let res2=[arg4,arg5,arg6]
+//     for (let i = 0; i < res2.length; i++) {
+//        res.push(res2[i])
+//     }
+//     return res
+// };
+//  console.log(arr("world",4,"hayr",5,56,"salom"));
+
+
+
+
 
 // 11-masala
 // function arr(arg1,arg2,arg3) {
@@ -140,7 +154,16 @@
 //  console.log(arr("hello",'blue',true));
 
 
-// 17-masala !!!
+// 17-masala
+// function arr(arg1,arg2,arg3) {
+//     let res =[arg1,arg2,arg3];
+//     let res2 =[]
+//     for (let i = 0; i < arr.length; i++) {
+//        res2.unshift(res[i])
+//     }
+//     return res2
+// }
+//  console.log(arr(6,3,8,));
 
 
 // 18-masala
@@ -174,7 +197,7 @@
 //     return eng_katta
 // }
 //  console.log(arr(23,3,8,))
-
+  
 
 
 // 22-masala
@@ -265,12 +288,15 @@
 
 
 // 28-masala!!!!!
-// function arr(arg1,arg2,arg3) {
-//     let res =[arg1,arg2,arg3];
-//     return res.pop()
-// }
-// let a = +prompt("elementni kiriting");
-// console.log(arr(6,3,8,))
+function arr(arg1,arg2,arg3) {
+    let res =[arg1,arg2,arg3];
+    let res2= 0
+    res2=res.indexOf(a)
+    res.splice(res2,1)
+    return res
+}
+let a = +prompt("elementni kiriting");
+console.log(arr(6,3,8,))
 
 
 
@@ -309,15 +335,53 @@
 
 
 // 33-masala
-function arr(arg1,arg2,arg3,arg4,arg5,arg6) {
-    let res =[arg1,arg2,arg3];
-    let res2=[arg4,arg5,arg6]
-    for (let i = 0; i < res2.length; i++) {
-       res.push(res2[i])
-    }
-    return res
-};
- console.log(arr(6,4,8,5,56,34));
+// function arr(arg1,arg2,arg3,arg4,arg5,arg6) {
+//     let res =[arg1,arg2,arg3];
+//     let res2=[arg4,arg5,arg6]
+//     for (let i = 0; i < res2.length; i++) {
+//        res.push(res2[i])
+//     }
+//     return res
+// };
+//  console.log(arr(6,4,8,5,56,34));
+
+
+
+
+// 34-masala
+// function arr(arg1,arg2,arg3) {
+//     let res =[arg1,arg2,arg3];
+//     let res2 =0
+//     for (let i = 0; i < res.length; i++) {
+//        res2=res[i]+2
+       
+//     }
+//     return res2
+// };
+//  console.log(arr(6,4,8));
+
+
+
+
+
+// 35-masala
+// function arr(arg1,arg2,arg3) {
+//     let res =[arg1,arg2,arg3];
+//     let res2 =[]
+//     for (let i = 0; i < res.length; i++) {
+//        if (res[i]< res2) {
+//         res2.unshift(res[i])
+//        }else{
+//             res2.push(res[i])
+//        }
+       
+//     }
+//     return res2
+// };
+//  console.log(arr(6,9,8));
+
+
+
 
 
 
